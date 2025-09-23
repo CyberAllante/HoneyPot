@@ -66,6 +66,8 @@ I built a **custom Kibana dashboard** on top of T-Pot’s data to highlight real
 3) **Dashboard:** added each panel → saved as **“Attack Insights (Custom)”**.
 </details>
 
+---
+
 ### Attack Map
 ![Attack Map](screenshots/attackmap.png)  
 
