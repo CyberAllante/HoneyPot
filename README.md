@@ -27,7 +27,7 @@ The goal was to capture, analyze, and visualize real-world attack traffic using 
 ### Honeypot Attack Statistics
 ![Honeypot Dashboard](screenshots/dashboard1.png)
 
-- Over **1,000+ attacks** captured in 24 hours.
+- Over **1,000 attacks** captured in 24 hours.
 - Most attacks targeted **Honeytrap** and **Cowrie** honeypots.
 - Attack sources included **United States, South Korea, Argentina, Hong Kong, Singapore**.
 
@@ -46,15 +46,6 @@ The goal was to capture, analyze, and visualize real-world attack traffic using 
 
 - Attackers attempted **FTP, SSH, Telnet, SQL, and DNS** services.
 - Common brute-force attempts against SSH (`root`, `admin` users).
-
----
-
-### Full Elastic Dashboard
-![Elastic Full Dashboard](screenshots/full_dashboard.png)
-
-- Tag clouds show **common attacker usernames and passwords**.
-- Suricata alerts flagged suspicious packet activity.
-- Clear visualization of **attack trends over time**.
 
 ---
 
