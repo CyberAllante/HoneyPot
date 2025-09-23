@@ -40,6 +40,32 @@ Through this project, I was able to strengthen my hands-on skills in:
 
 ---
 
+## 📊 Custom Kibana Dashboard – Attack Insights
+
+![Custom Dashboard](screenshots/custom_dashboard.png)
+
+I built a **custom Kibana dashboard** on top of T-Pot’s data to highlight real-time attack trends.  
+**Panels included:**
+- **Top Source IPs** – repeated offenders by event count
+- **Attacker IP Reputation** – known attacker vs mass scanner
+- **Attacks Over Time** – spikes and volume by 30-min buckets
+- **Attacks by City / Country / Port** – who’s hitting, from where, and what they target
+
+**Why this matters:** turns raw honeypot logs into **actionable threat intelligence** and shows my ability to design Elastic visualizations that answer security questions quickly.
+
+<details>
+<summary><strong>How I built it (quick steps)</strong></summary>
+
+1) **Data view:** selected my T-Pot/Logstash index (e.g., `logstash-*`).  
+2) **Lens Visualizations:**
+   - Bar/Table: **Top values of** `source.ip` (size 10) → metric: **Count**
+   - Donut: **Terms** on `attacker.reputation` (or your equivalent field)
+   - Line: X-axis `@timestamp` (auto interval), Y-axis **Count**
+   - Bar/Pie: **Terms** on `geoip.city_name.keyword` and/or `geoip.country_name.keyword`
+   - Bar: **Terms** on `destination.port`
+3) **Dashboard:** added each panel → saved as **“Attack Insights (Custom)”**.
+</details>
+
 ### Attack Map
 ![Attack Map](screenshots/attackmap.png)  
 
