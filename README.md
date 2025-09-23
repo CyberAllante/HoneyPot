@@ -64,6 +64,8 @@ The goal was to capture, analyze, and visualize real-world attack traffic using 
 - Suricata alerts flagged suspicious packet activity.
 - Clear visualization of **attack trends over time**.
 
+---
+
 ### Threat Intelligence & Suricata Alerts
 ![Suricata](screenshots/suricata.png)
 
