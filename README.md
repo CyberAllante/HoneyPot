@@ -64,6 +64,13 @@ The goal was to capture, analyze, and visualize real-world attack traffic using 
 - Suricata alerts flagged suspicious packet activity.
 - Clear visualization of **attack trends over time**.
 
+### Threat Intelligence & Suricata Alerts
+![Suricata](screenshots/suricata.png)
+
+- Top attacker networks included **Charter, UCloud, DigitalOcean, and Microsoft**.  
+- Frequent attacker IPs were observed repeatedly attempting malicious traffic.  
+- Suricata alerts flagged issues such as **invalid timestamps, spurious retransmissions, truncated packets, and suspicious SSH activity**.
+
 ---
 
 ## 🧠 Key Takeaways
