@@ -49,14 +49,6 @@ The goal was to capture, analyze, and visualize real-world attack traffic using 
 
 ---
 
-### Logs & Container Pull
-![Logs](screenshots/logs.png)
-
-- Containers such as `cowrie`, `conpot`, `adbhoney`, and `suricata` actively captured malicious traffic.
-- Elastic stack handled data storage and visualization.
-
----
-
 ### Full Elastic Dashboard
 ![Elastic Full Dashboard](screenshots/full_dashboard.png)
 
