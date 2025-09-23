@@ -1,7 +1,14 @@
 # 🛡️ T-Pot Honeypot Deployment on DigitalOcean
 
-This project documents my deployment of **[T-Pot](https://github.com/telekom-security/tpotce)**, an all-in-one honeypot platform, on a VPS hosted by DigitalOcean.  
-The goal was to capture, analyze, and visualize real-world attack traffic using T-Pot’s built-in dashboards and tools.
+This project is part of my cybersecurity portfolio and showcases my deployment of **T-Pot**, an all-in-one honeypot platform, on a VPS hosted by DigitalOcean.  
+
+I built this environment to **capture and analyze real-world cyberattacks** against exposed services in the wild.  
+By collecting and visualizing attack data in Kibana and Elastic dashboards, I was able to see how adversaries target systems, what services they go after, and which credentials they attempt to brute-force.  
+
+This project demonstrates my hands-on skills in:
+- Deploying and configuring honeypot systems in the cloud
+- Using Elastic Stack for security monitoring and data visualization
+- Analyzing attacker behavior and generating threat intelligence
 
 ---
 
