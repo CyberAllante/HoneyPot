@@ -1,5 +1,7 @@
 # 🛡️ T-Pot Honeypot Deployment on DigitalOcean | CyberAllante
 
+![Status: Running](https://img.shields.io/badge/Status-Running-brightgreen?style=for-the-badge)
+
 This project is part of my cybersecurity portfolio and showcases my deployment of **T-Pot**, an all-in-one honeypot platform, on a VPS hosted by DigitalOcean.  
 
 I built this environment to **capture and analyze real-world cyberattacks** against exposed services in the wild.  
